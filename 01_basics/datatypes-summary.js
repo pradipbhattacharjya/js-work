@@ -9,11 +9,27 @@ const isoggedIn = false
 const outsideTemp= null
 let userEmail;
 
-const id =symbol('123')
+const id =Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+console.log(id === anotherId);
+
+//const bigNumber = 2334423343445n
 // Reference (Non primitive)
 
 // Array, Objects,Functions
+
+const heros = ["shakiman","naagraj","doga"]
+let myObj={
+    name: "pradip",
+    age:22,
+   
+}
+
+const myFunction = function(){
+    console.log("Hello world");
+
+}
+
+console.log(typofbigNumber);
 
