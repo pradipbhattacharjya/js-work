@@ -54,8 +54,24 @@ console.log(typeof anotherId);
        Object  =>  object
 
 
-
-
-
-
 */
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack(primitive),Heap (Non-primitive)
+let myFacebookname = "PradipBhattacharjya"
+
+let anothername = myFacebookname
+anothername = "subhabhattcharjya"
+console.log(myFacebookname);
+console.log(anothername);
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "pradipbhattacharjya1997@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
